@@ -1,0 +1,24 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Roboto";
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  width: 100vw;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+}
